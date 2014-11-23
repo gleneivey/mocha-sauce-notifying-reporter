@@ -1,4 +1,5 @@
 # Logs
+log
 logs
 *.log
 
@@ -20,9 +21,8 @@ coverage
 build/Release
 
 # Dependency directory
-# Commenting this out is preferred by some people, see
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
-# Users Environment Variables
-.lock-wscript
+# Editor cruft
+.idea
+*~
