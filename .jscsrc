@@ -84,10 +84,5 @@
     "safeContextKeyword": ["self"],
     "requireDotNotation": true,
     "disallowYodaConditions": true,
-    "validateJSDoc": {
-        "checkParamNames": true,
-        "checkRedundantParams": true,
-        "requireParamTypes": true
-    },
     "disallowNewlineBeforeBlockStatements": true
 }

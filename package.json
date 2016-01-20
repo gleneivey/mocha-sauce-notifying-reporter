@@ -1,6 +1,6 @@
 {
   "name"        : "mocha-sauce-notifying-reporter",
-  "version"     : "0.0.2",
+  "version"     : "0.0.3",
   "description" : "Reporter plugin for the mocha test runner (on node) that jobUpdate's Sauce Labs with suite pass/fail at the end of a run.",
   "keywords": [ "node", "mocha", "reporter", "sauce", "saucelabs" ],
   "author"      : "Glen E. Ivey",
@@ -10,24 +10,24 @@
     "url" : "https://github.com/gleneivey/mocha-sauce-notifying-reporter.git"
   },
   "bugs": { "url": "https://github.com/gleneivey/mocha-sauce-notifying-reporter/issues" },
-  "licenses": "AGPL-3.0",
+  "license": "AGPL-3.0",
   "scripts": {
     "test":  "grunt"
   },
   "engines": {
-    "node": "~0.10.0"
+    "node": "~5.4.1"
   },
   "dependencies": {
-    "mocha": "^2.0.1",
-    "saucelabs": "^0.1.1"
+    "mocha": "^2.3.4",
+    "saucelabs": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-jscs": "^1.8.0",
-    "matchdep": "^0.3.0"
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-jscs": "^2.6.0",
+    "matchdep": "^1.0.0"
   },
   "peerDependencies": {
-    "mocha": "^2.0.1"
+    "mocha": "^2.3.4"
   }
 }
